@@ -156,6 +156,7 @@ a {
         font-size: 18px;
         font-weight: 500;
         line-height: 17.58px;
+        margin-top: 10px;
     }
     .box-section-1-main div h3 {
         color: #3C2313;
@@ -172,21 +173,32 @@ a {
         padding-top: 20px;
         margin-bottom: 50px;
     }
+    #form-section h2{
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 29.3px;
+        color:#3C2313;
+    }
     #form-section form {
         display: flex;
         flex-direction: column;
         width: 33.20%;
+        margin-top: 30px;
     }
     #form-section form input {
         background-color: #3C2313;
         padding-top: 15px;
         padding-bottom: 15px;
+        margin-bottom: 10px;
+        border-radius: 20px;
     }
     #form-section form input::placeholder {
         color: white;
         font-size: 9px;
         font-weight: 400;
         line-height: 10.55px;
+        padding-left: 10px;
     }
     #form-section form div {
         align-self: center;
