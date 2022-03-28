@@ -1,0 +1,199 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+ }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+    /* HEADER */
+    header header {
+        background-color: black;
+        color: #F3F3F3;
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 10% 4px 6%;
+    }
+    .div-right-hh {
+        display: flex;
+    }
+    header header p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 11.72px;
+    }
+
+    /* MAIN */
+    header main {
+        background-color: #F0A83E;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 5% 24px 5%;
+    }
+    .main-img-left-hm {
+        height: 40px;
+    }
+    .main-ul-right-hm {
+        display: flex;
+    }
+    header main ul li {
+        margin-right: 40px;
+        font-size: 19px;
+        line-height: 15.23px;
+        font-weight: 400;
+        color: white;
+    }
+    header main ul li img {
+        width: 18px;
+        margin-right: 3px;
+    }
+
+/* MAIN */
+    /* MAIN */
+    #main-main {
+        background: no-repeat center url('../img/bowl-and-pet-daities-on-green-background.png');
+        background-size: 1920px;
+        height: 600px;
+    }
+    .box-main-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 60%;
+        padding-top: 227px;
+        padding-bottom: ;
+        width: 40%;
+        height: ;
+    }
+    .h2-box-main-main {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35.16px;
+        color: #3C2313;
+        background-color: white;
+        padding: 10px;
+    }
+    .p-box-main-main {
+        color:#3C2313;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        margin-top: 12px;
+    }
+    .a-box-main-main {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        background-color: #F0A83E;
+        padding: 15px 23px;
+        margin-top: 12px;
+    }
+
+    /* SECTION 1 */
+    #section-1 {
+        margin-bottom: 50px;
+    }
+
+    .div-1-section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    .div-1-section-1 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    color: #3C2313;
+    margin-top: 10px;
+    }
+    .div-1-section-1 img {
+        width: 5%;
+    }
+    .ulmodif {
+        display: flex;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .ulmodif li{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 17.58px;
+        color: #666666;
+    }
+    .margin-li-section-main {     
+        margin-left: 15px;
+    }
+    /* BOX */
+    .box-section-1-main {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .box-section-1-main div {
+        background: #FBFAF6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+    .box-section-1-main div img {
+        width: 100%;
+    }
+    .box-section-1-main div p {
+        padding-bottom: 10px;
+        color: #F0A83E;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 17.58px;
+    }
+    .box-section-1-main div h3 {
+        color: #3C2313;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 17.58px;
+    }
+    /* FORM SECTION */
+
+    #form-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    #form-section form {
+        display: flex;
+        flex-direction: column;
+        width: 33.20%;
+    }
+    #form-section form input {
+        background-color: #3C2313;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #form-section form input::placeholder {
+        color: white;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 10.55px;
+    }
+    #form-section form div {
+        align-self: center;
+    }
+    .button-r-form-section {
+
+    }
+    .button-s-form-section {
+        
+    }
