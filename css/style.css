@@ -5,7 +5,7 @@
 
 ul {
     list-style: none;
- }
+}
 
 a {
     text-decoration: none;
@@ -78,10 +78,8 @@ a {
         align-items: center;
         margin-left: 60%;
         padding-top: 227px;
-        padding-bottom: ;
         width: 40%;
-        height: ;
-    }
+        }
     .h2-box-main-main {
         font-size: 30px;
         font-weight: 400;
