@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
+    <!-- FAVICON -->
+    <link rel="icon" href="./img/favicon.png" type="image/.png">
     <title>Petshop Proyect</title>
 </head>
 <body>
@@ -24,8 +25,16 @@
             </div>
 
             <div class="div-right-hh">
-                <p>Español</p>
-                <p>ARS$</p>
+                <select name="idioma">
+                    <option value="value1">English</option>
+                    <option value="value2" selected>Español</option>
+                    <option value="value3">Portugués</option>
+                </select>
+                <select name="peso">
+                    <option value="value1" selected>ARS$</option>
+                    <option value="value2">USD$</option>
+                    <option value="value3">EUR€</option>
+                </select>
             </div>
         </header>
             <!-- MAIN -->
@@ -100,7 +109,6 @@
             <h2>Contáctanos</h2>
             <form action="/contact" method="post">
 
-
                 <input type="text" name="name" placeholder="Nombre y Apellido" id="name">
 
                 <input type="email" name="email" placeholder="Ingresá tu correo electrónico" id="email">
@@ -108,20 +116,67 @@
                 <input type="tel" name="tel" placeholder="Teléfono" id="tel">
 
                 <div>
-                    <button class="button-r-form-section" type="reset">Resetear</button>               
-                    <button class="button-s-form-section" type="submit">Enviar</button>
+                    <button style="background: #8A8787;" type="reset">Resetear</button>               
+                    <button style="background: #F0A83E" type="submit">Enviar</button>
                 </div>
                 </form>
-
         </section>
         <!-- FOOTER -->
         <footer id="footer-section">
-
+            <div class="envio-footer-main">
+                <img src="./img/enviar-correo.png" alt="">
+                <h3>Suscríbete para más novedades</h3>
+            </div>
+            <div class="box-form-footer">
+                <form action="./registro" method="post">
+                    <input class="inputcfg" type="email" name="email" placeholder="Ingresá tu correo electronico" id="email">  
+                    <button type="submit">Suscribirme</button>
+                </form>
+            </div>
         </footer>
     </main>
 <!-- FOOTER -->
-    <footer>
-
+    <footer id="footer">
+        <!-- MAIN -->
+        <main>
+            <!-- BOX 1 -->
+            <div class="box-1-main-footer">
+                <div class="box-grl-main-footer">
+                    <div>
+                        <img src="./img/Icono.png" alt="Icono Ubicacion">
+                    </div>
+                    <div style="margin-left: 30px">
+                        <h3>Localidad</h3>
+                        <p>Calle - Provincia</p>
+                    </div>
+                </div>
+                <div class="box-grl-main-footer">
+                    <div>
+                        <img src="./img/Iconotelefono.png" alt="Icono Telefono">
+                    </div>
+                    <div style="margin-left: 30px">
+                        <h3>Teléfono</h3>
+                        <p>Número de teléfono</p>
+                    </div>
+                </div>
+                <div class="box-grl-main-footer">
+                    <div>
+                        <img src="./img/IconoEmail.png" alt="Icono Email">
+                    </div>
+                    <div style="margin-left: 30px">
+                        <h3>Correo Electrónico</h3>
+                        <p>Dirección de correo</p>
+                    </div>
+                </div>
+            </div>
+            <!-- BOX 2 -->
+            <div class="box-2-main-footer">
+                <img src="./img/logowhite.png" alt="LogoPetShop">
+            </div>
+        </main>
+        <footer class="footer-footer">
+            <p>Todos los derechos reservados Front End</p>
+        </footer>
     </footer>
 </body>
 </html>

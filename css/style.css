@@ -29,6 +29,15 @@ a {
         font-size: 10px;
         line-height: 11.72px;
     }
+    #header select{
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 10px;
+    }
+    #header select option {
+        background-color: black;
+    }
 
     /* MAIN */
     header main {
@@ -192,6 +201,7 @@ a {
         padding-bottom: 15px;
         margin-bottom: 10px;
         border-radius: 20px;
+        border: none;
     }
     #form-section form input::placeholder {
         color: white;
@@ -203,9 +213,92 @@ a {
     #form-section form div {
         align-self: center;
     }
-    .button-r-form-section {
+    #form-section form button {
+        width: 110px;
+        height: 34px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    /* FOOTER */
+    #footer-section {
+        background: #F0A83E;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 5% 0px 3%;
+        height: 60px;
+    }
+    .envio-footer-main{
+        display: flex;
+        align-items: center;
+    }
+    .envio-footer-main h3{
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23.44px;
+        margin-left: 7px;
+    }
 
+    .box-form-footer input{
+        background-color: white;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 150px;
+        border-radius: 20px;
+        border: none;
     }
-    .button-s-form-section {
-        
+    .box-form-footer input::placeholder {
+        color: #A0A0A0;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 10.55px;
+        padding-left: 10px;
     }
+    .box-form-footer button {
+        width: 110px;
+        height: 34px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        background: #3C2313;
+        color: white;
+    }
+/* FOOTER */
+#footer main {
+    display: flex;
+    background: #3C2313;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+.box-1-main-footer {
+    display: flex;
+    flex-direction: column;
+}
+.box-1-main-footer h3 {
+    color: white;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-weight: 700;
+}
+.box-1-main-footer p{
+    color: #8a8787;
+    line-height: 11.72px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.box-grl-main-footer {
+    display: flex;
+}
+.footer-footer {
+    background: #222222;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.72px;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+}
